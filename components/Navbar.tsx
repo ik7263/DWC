@@ -96,9 +96,6 @@ const Navbar = () => {
               )}
             </div>
             
-            <Link href="/gallery" className="font-medium hover:text-primary transition-colors">
-              Gallery
-            </Link>
             <Link href="/contact" className="font-medium hover:text-primary transition-colors">
               Contact
             </Link>
@@ -157,7 +154,7 @@ const Navbar = () => {
                 className="block font-medium hover:text-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                All Events
+                Events
               </Link>
               
               <div className="pl-4 mt-2 space-y-2 border-l-2 border-gray-100">
@@ -174,13 +171,6 @@ const Navbar = () => {
               </div>
             </div>
             
-            <Link 
-              href="/gallery" 
-              className="block font-medium hover:text-primary transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Gallery
-            </Link>
             <Link 
               href="/contact" 
               className="block font-medium hover:text-primary transition-colors"

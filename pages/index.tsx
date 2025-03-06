@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaHandsHelping, FaUsers, FaHandHoldingHeart, FaArrowRight } from 'react-icons/fa'
+import { FaHandsHelping, FaUsers, FaHandHoldingHeart } from 'react-icons/fa'
 
 // Components
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import UpcomingEvents from '@/components/UpcomingEvents'
 
 export default function Home() {
   return (
@@ -147,84 +148,7 @@ export default function Home() {
       </section>
 
       {/* Upcoming Events Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto">
-          <div className="flex justify-between items-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold">Upcoming Events</h2>
-            <Link href="/events" className="flex items-center text-primary font-medium hover:text-primary/80">
-              View All Events <FaArrowRight className="ml-2" />
-            </Link>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Event Card 1 */}
-            <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-              <div className="relative h-48">
-                <Image 
-                  src="/images/event-1.jpg" 
-                  alt="Annual Golf Tournament" 
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">June 15, 2023 • 9:00 AM</div>
-                <h3 className="text-xl font-bold mb-2">Annual Golf Tournament</h3>
-                <p className="text-gray-600 mb-4">
-                  Join us for our annual golf tournament fundraiser to support local charities.
-                </p>
-                <Link href="/events/golf-tournament" className="text-primary font-medium hover:text-primary/80">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-            
-            {/* Event Card 2 */}
-            <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-              <div className="relative h-48">
-                <Image 
-                  src="/images/event-2.jpg" 
-                  alt="Community Cleanup" 
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">July 8, 2023 • 8:00 AM</div>
-                <h3 className="text-xl font-bold mb-2">Community Cleanup</h3>
-                <p className="text-gray-600 mb-4">
-                  Help us clean up our local parks and streets to make our community more beautiful.
-                </p>
-                <Link href="/events/community-cleanup" className="text-primary font-medium hover:text-primary/80">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-            
-            {/* Event Card 3 */}
-            <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-              <div className="relative h-48">
-                <Image 
-                  src="/images/event-3.jpg" 
-                  alt="Charity Gala" 
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <div className="text-sm text-gray-500 mb-2">August 20, 2023 • 7:00 PM</div>
-                <h3 className="text-xl font-bold mb-2">Annual Charity Gala</h3>
-                <p className="text-gray-600 mb-4">
-                  Our biggest fundraising event of the year with dinner, entertainment, and a silent auction.
-                </p>
-                <Link href="/events/charity-gala" className="text-primary font-medium hover:text-primary/80">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <UpcomingEvents showViewAll={true} />
       
       <Footer />
     </div>

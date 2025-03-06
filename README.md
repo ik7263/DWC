@@ -15,7 +15,6 @@ A modern, responsive website for the "Dudes Who Care" 501(c)(3) non-profit organ
 - **Home**: Introduction to the charity with mission highlights and impact statistics
 - **About**: Information about the organization, its history, values, and board members
 - **Events**: Upcoming and past events organized by the charity
-- **Gallery**: Photo gallery showcasing the organization's activities
 - **Contact**: Contact form and information for getting in touch
 - **Donate**: Donation form and alternative ways to contribute
 

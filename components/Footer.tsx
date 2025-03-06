@@ -19,7 +19,7 @@ const Footer = () => {
               A 501(c)(3) non-profit organization dedicated to serving our community through charitable events and fundraising.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/dudeswhocare/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=100086608502271" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                 <FaFacebook className="text-xl" />
               </a>
               <a href="https://twitter.com/dudeswhocare" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
@@ -33,7 +33,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
+          
           {/* Quick Links */}
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
@@ -49,11 +49,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="text-gray-300 hover:text-white transition-colors">
-                  Gallery
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
                   Contact
                 </Link>
@@ -65,7 +60,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
+          
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
@@ -75,7 +70,7 @@ const Footer = () => {
               <li>Email: info@dudeswhocare.com</li>
             </ul>
           </div>
-
+          
           {/* Newsletter */}
           <div>
             <h3 className="text-lg font-bold mb-4">Stay Updated</h3>
@@ -83,14 +78,14 @@ const Footer = () => {
               Subscribe to our newsletter for updates on events and ways to get involved.
             </p>
             <form className="flex flex-col sm:flex-row gap-2">
-              <input
-                type="email"
-                placeholder="Your email address"
+              <input 
+                type="email" 
+                placeholder="Your email address" 
                 className="px-4 py-2 rounded-md bg-white/10 text-white focus:outline-none focus:ring-2 focus:ring-secondary"
                 required
               />
-              <button
-                type="submit"
+              <button 
+                type="submit" 
                 className="px-4 py-2 bg-secondary text-white rounded-md hover:bg-secondary/90 transition-colors"
               >
                 Subscribe
@@ -98,10 +93,10 @@ const Footer = () => {
             </form>
           </div>
         </div>
-
+        
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-gray-300">
-          <p>© {currentYear} Dudes Who Care. All rights reserved.</p>
+          <p>© 2016-{currentYear} Dudes Who Care, Incorporated, 501(c)3</p>
           <div className="mt-2">
             <span>EIN: 88-1438378</span>
           </div>

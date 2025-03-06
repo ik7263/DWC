@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useState } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
@@ -18,9 +17,7 @@ interface EventTemplateProps {
 const EventTemplate: React.FC<EventTemplateProps> = ({ 
   title, 
   content, 
-  images,
-  previousEvent,
-  nextEvent
+  images
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -106,33 +103,6 @@ const EventTemplate: React.FC<EventTemplateProps> = ({
               <p>No images available for this event yet.</p>
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Navigation between events */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between max-w-4xl mx-auto">
-            {previousEvent ? (
-              <Link href={`/events/${previousEvent}`} className="btn bg-gray-200 hover:bg-gray-300 text-gray-800">
-                ← Previous Event
-              </Link>
-            ) : (
-              <div></div>
-            )}
-            
-            <Link href="/events" className="btn bg-primary text-white hover:bg-primary/90">
-              All Events
-            </Link>
-            
-            {nextEvent ? (
-              <Link href={`/events/${nextEvent}`} className="btn bg-gray-200 hover:bg-gray-300 text-gray-800">
-                Next Event →
-              </Link>
-            ) : (
-              <div></div>
-            )}
-          </div>
         </div>
       </section>
       

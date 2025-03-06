@@ -116,7 +116,7 @@ export default function TheDudes() {
                 />
               </div>
               <h3 className="text-xl font-bold mb-1">Alex</h3>
-              <p className="text-primary font-medium mb-3">Marketing Director, Webmaster</p>
+              <p className="text-primary font-medium mb-3">Marketing Director</p>
               <p className="text-lg text-gray-600">
                 Alex attends the University of Virginia. He is passionate about volunteering as well as community and self-improvement. He served as Secretary of DWC from 2018-2022.
               </p>

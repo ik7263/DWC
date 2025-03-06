@@ -24,8 +24,6 @@ export default function ThanksgivingDrive2020() {
       title="2020 Thanksgiving Drive"
       content={content}
       images={images}
-      previousEvent="christmas-in-july-2021"
-      nextEvent="thanksgiving-drives-2016-2019"
     />
   )
 } 

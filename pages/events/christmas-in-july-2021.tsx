@@ -21,11 +21,9 @@ export default function ChristmasInJuly2021() {
 
   return (
     <EventTemplate
-      title="2021 Christmas in July"
+      title="Christmas in July 2021"
       content={content}
       images={images}
-      previousEvent="thanksgiving-drive-2021"
-      nextEvent="thanksgiving-drive-2020"
     />
   )
 } 

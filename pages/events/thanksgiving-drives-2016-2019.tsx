@@ -33,10 +33,9 @@ export default function ThanksgivingDrives20162019() {
 
   return (
     <EventTemplate
-      title="2016-2019 Thanksgiving Drives"
+      title="Thanksgiving Drives 2016-2019"
       content={content}
       images={images}
-      previousEvent="thanksgiving-drive-2020"
     />
   )
 } 

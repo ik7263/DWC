@@ -60,20 +60,8 @@ The following images need to be added to this directory:
 - `events/2016-2019/thanksgiving-2.jpg` - Additional image for 2016-2019 Thanksgiving Drives
 - `events/2016-2019/thanksgiving-3.jpg` - Additional image for 2016-2019 Thanksgiving Drives
 
-### Gallery Page
-- `gallery-1.jpg` - Golf Tournament image
-- `gallery-2.jpg` - Community Cleanup image
-- `gallery-3.jpg` - Charity Gala image
-- `gallery-4.jpg` - Food Drive image
-- `gallery-5.jpg` - Board Meeting image
-- `gallery-6.jpg` - Volunteer Day image
-- `gallery-7.jpg` - Fundraising Event image
-- `gallery-8.jpg` - Team Building image
-- `gallery-9.jpg` - Award Ceremony image
-
 Please ensure all images are high-quality, properly licensed, and optimized for web use. The recommended dimensions are:
 - Hero images: 1920x1080px
 - Event images: 800x600px
-- Gallery images: 800x600px
 - Team member photos: 400x400px (square)
 - Memorial photos: 600x600px (square) 

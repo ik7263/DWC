@@ -1,26 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaCalendarAlt, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
+import { FaCalendarAlt, FaMapMarkerAlt } from 'react-icons/fa'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import UpcomingEvents from '@/components/UpcomingEvents'
 
 export default function Events() {
-  // Upcoming events
-  const upcomingEvents = [
-    {
-      id: 1,
-      title: '2025 Thanksgiving Drive',
-      date: 'November 2025',
-      time: 'Donations accepted now',
-      location: 'Montgomery County, PA',
-      description: 'Help us provide Thanksgiving meals to families in need. Our goal is to provide at least 550 Turkey dinners this year, surpassing our previous record.',
-      image: '/images/events/2024/thanksgiving-1.jpg', // Reusing 2024 image until 2025 images are available
-      slug: 'thanksgiving-drive-2025'
-    }
-  ]
-
   // Past events
   const pastEvents = [
     {
@@ -96,52 +83,7 @@ export default function Events() {
       </section>
 
       {/* Upcoming Events Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Upcoming Events</h2>
-          
-          <div className="space-y-12">
-            {upcomingEvents.map((event) => (
-              <div key={event.id} className="flex flex-col md:flex-row bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="md:w-1/3 relative h-64 md:h-auto">
-                  <Image 
-                    src={event.image} 
-                    alt={event.title} 
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="md:w-2/3 p-6 md:p-8">
-                  <h3 className="text-2xl font-bold mb-2">{event.title}</h3>
-                  
-                  <div className="flex flex-wrap gap-4 mb-4 text-gray-600">
-                    <div className="flex items-center">
-                      <FaCalendarAlt className="mr-2 text-primary" />
-                      {event.date}
-                    </div>
-                    <div className="flex items-center">
-                      <FaClock className="mr-2 text-primary" />
-                      {event.time}
-                    </div>
-                    <div className="flex items-center">
-                      <FaMapMarkerAlt className="mr-2 text-primary" />
-                      {event.location}
-                    </div>
-                  </div>
-                  
-                  <p className="text-gray-600 mb-6">
-                    {event.description}
-                  </p>
-                  
-                  <Link href={`/events/${event.slug}`} className="btn bg-secondary text-white hover:bg-secondary/90">
-                    Learn More
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <UpcomingEvents showViewAll={false} />
 
       {/* Past Events Section */}
       <section className="py-20 bg-gray-50">

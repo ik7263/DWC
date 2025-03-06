@@ -28,8 +28,6 @@ export default function ThanksgivingDrive2021() {
       title="2021 Thanksgiving Drive"
       content={content}
       images={images}
-      previousEvent="thanksgiving-drive-2022"
-      nextEvent="christmas-in-july-2021"
     />
   )
 } 
