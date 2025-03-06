@@ -31,7 +31,7 @@ export default function TheDudes() {
             <div className="md:w-1/3">
               <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-white shadow-lg">
                 <Image 
-                  src="/images/the-dudes/stas.jpg" 
+                  src="https://github.com/ik7263/DWC/blob/main/public/images/the-dudes/stas.jpg?raw=true" 
                   alt="Stanley 'Stas' Karwoski" 
                   fill
                   className="object-cover"
