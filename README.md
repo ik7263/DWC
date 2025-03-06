@@ -90,27 +90,7 @@ Before deploying the website, you'll need to add the required images to the `pub
 
 ## Deployment
 
-### GitHub Pages Deployment
-
-This website is configured for deployment on GitHub Pages at [https://ik7263.github.io/DWC/](https://ik7263.github.io/DWC/).
-
-To deploy the website to GitHub Pages:
-
-1. Push your changes to the main branch:
-   ```bash
-   git add .
-   git commit -m "Your commit message"
-   git push origin main
-   ```
-
-2. The GitHub Actions workflow will automatically build and deploy the site to the gh-pages branch.
-
-3. Alternatively, you can manually deploy using:
-   ```bash
-   npm run deploy
-   ```
-
-This website can also be deployed to any hosting platform that supports Next.js applications, such as Vercel, Netlify, or a traditional web server.
+This website can be deployed to any hosting platform that supports Next.js applications, such as Vercel, Netlify, or a traditional web server.
 
 ## Contributing
 
