@@ -38,7 +38,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-secondary/20 rounded-lg transform rotate-3"></div>
                 <div className="absolute inset-0 bg-white/90 rounded-lg overflow-hidden">
                   <Image 
-                    src="/images/hero-image.jpg" 
+                    src="/images/home/hero-image.jpg" 
                     alt="Dudes Who Care volunteers" 
                     fill
                     className="object-cover"

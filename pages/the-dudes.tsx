@@ -31,7 +31,7 @@ export default function TheDudes() {
             <div className="md:w-1/3">
               <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden border-4 border-white shadow-lg">
                 <Image 
-                  src="/images/stas.jpg" 
+                  src="/images/the-dudes/stas.jpg" 
                   alt="Stanley 'Stas' Karwoski" 
                   fill
                   className="object-cover"
@@ -58,7 +58,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-1.jpg" 
+                  src="/images/the-dudes/team-1.jpg" 
                   alt="Brian - President" 
                   fill
                   className="object-cover"
@@ -75,7 +75,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-2.jpg" 
+                  src="/images/the-dudes/team-2.jpg" 
                   alt="Justin - Vice President" 
                   fill
                   className="object-cover"
@@ -92,7 +92,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-3.jpg" 
+                  src="/images/the-dudes/team-3.jpg" 
                   alt="Frank - Treasurer" 
                   fill
                   className="object-cover"
@@ -109,7 +109,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-4.jpg" 
+                  src="/images/the-dudes/team-4.jpg" 
                   alt="Alex - Marketing Director" 
                   fill
                   className="object-cover"
@@ -135,7 +135,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-5.jpg" 
+                  src="/images/the-dudes/team-5.jpg" 
                   alt="Nate - Solicitations Director" 
                   fill
                   className="object-cover"
@@ -152,7 +152,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-6.jpg" 
+                  src="/images/the-dudes/team-6.jpg" 
                   alt="Jeff - Logistics Director" 
                   fill
                   className="object-cover"
@@ -169,7 +169,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-7.jpg" 
+                  src="/images/the-dudes/team-7.jpg" 
                   alt="Nicolas" 
                   fill
                   className="object-cover"
@@ -186,7 +186,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/team-8.jpg" 
+                  src="/images/the-dudes/team-8.jpg" 
                   alt="Paul" 
                   fill
                   className="object-cover"

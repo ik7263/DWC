@@ -30,7 +30,7 @@ export default function About() {
             <div className="md:w-1/2">
               <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-xl">
                 <Image 
-                  src="/images/our-story.jpg" 
+                  src="/images/about/our-story.jpg" 
                   alt="Dudes Who Care founders" 
                   fill
                   className="object-cover"

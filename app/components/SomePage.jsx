@@ -1,0 +1,1 @@
+<Image src="/images/some-page/some-image.jpg" alt="Description" width={500} height={300} /> 
