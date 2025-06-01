@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
-import { FaBars, FaTimes, FaFlag, FaChevronDown } from 'react-icons/fa'
+import { FaBars, FaTimes, FaChevronDown } from 'react-icons/fa'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -46,7 +47,15 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <FaFlag className="text-primary text-2xl mr-2" />
+            <div className="relative w-10 h-10 mr-2">
+              <Image 
+                src="/images/DUDES-HEART-LOGO-BLACK.jpg" 
+                alt="Dudes Who Care Logo" 
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
             <span className="font-heading font-bold text-xl md:text-2xl">DUDES WHO CARE</span>
           </Link>
 

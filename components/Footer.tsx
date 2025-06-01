@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaFacebook, FaInstagram, FaFlag } from 'react-icons/fa'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import Image from 'next/image'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -12,7 +13,15 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <FaFlag className="text-white text-2xl mr-2" />
+              <div className="relative w-10 h-10 mr-2">
+                <Image 
+                  src="/images/DUDES-HEART-LOGO-BLACK.jpg" 
+                  alt="Dudes Who Care Logo" 
+                  fill
+                  className="object-contain"
+                  priority
+                />
+              </div>
               <span className="font-heading font-bold text-xl">DUDES WHO CARE</span>
             </Link>
             <p className="text-gray-300 mb-4">
