@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaMapMarkerAlt, FaEnvelope, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaEnvelope, FaFacebook, FaInstagram } from 'react-icons/fa'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -201,17 +201,9 @@ export default function Contact() {
                     <span className="sr-only">Facebook</span>
                     <FaFacebook className="h-5 w-5" />
                   </a>
-                  <a href="https://twitter.com/dudeswhocare" target="_blank" rel="noopener noreferrer" className="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-colors">
-                    <span className="sr-only">Twitter</span>
-                    <FaTwitter className="h-5 w-5" />
-                  </a>
                   <a href="https://www.instagram.com/dudeswhocare/" target="_blank" rel="noopener noreferrer" className="bg-pink-600 text-white p-3 rounded-full hover:bg-pink-700 transition-colors">
                     <span className="sr-only">Instagram</span>
                     <FaInstagram className="h-5 w-5" />
-                  </a>
-                  <a href="https://www.youtube.com/channel/UCVYTKQIYVr7OFuTJf9DKGQg" target="_blank" rel="noopener noreferrer" className="bg-red-600 text-white p-3 rounded-full hover:bg-red-700 transition-colors">
-                    <span className="sr-only">YouTube</span>
-                    <FaYoutube className="h-5 w-5" />
                   </a>
                 </div>
               </div>
