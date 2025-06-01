@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center">
             <div className="relative w-10 h-10 mr-2">
               <Image 
-                src="/images/DUDES-HEART-LOGO-BLACK.jpg" 
+                src="https://github.com/ik7263/DWC/blob/main/public/images/DUDES-HEART-LOGO-BLACK.jpg" 
                 alt="Dudes Who Care Logo" 
                 fill
                 className="object-contain"
