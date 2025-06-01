@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaFlag } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaFlag } from 'react-icons/fa'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -22,14 +22,8 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=100086608502271" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                 <FaFacebook className="text-xl" />
               </a>
-              <a href="https://twitter.com/dudeswhocare" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
-                <FaTwitter className="text-xl" />
-              </a>
               <a href="https://www.instagram.com/dudeswhocare/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
                 <FaInstagram className="text-xl" />
-              </a>
-              <a href="https://www.youtube.com/channel/UCVYTKQIYVr7OFuTJf9DKGQg" target="_blank" rel="noopener noreferrer" className="text-white hover:text-secondary transition-colors">
-                <FaYoutube className="text-xl" />
               </a>
             </div>
           </div>

@@ -46,7 +46,7 @@ export default function About() {
                 over 20 families. We have experienced such phenomenal growth over the past 6 years, as this year we focused our efforts on becoming a fully registered 501(c)3 non-profit organization.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                DWC continues to partner with Martha's Choice Marketplace (www.marthaschoicemarketplace.com), the largest, most visited food pantry in Montgomery County serving over 6,000 food-insecure families for our annual Thanksgiving campaign. It is our hope that with DWC's newly founded non-profit status we can once again surpass our goals and provide for as many families-in-need as possible this holiday season.
+              Our group began with 3 guys with the idea of helping members in our local community.  Since our inception we have been fortunate enough to find that there are many “Dudes” within our community that share this idea and have since joined our team.    Consistent with our values we have also promoted the involvement of junior Dudes and Dudettes in which we find great joy when we see them experience the humility and gratitude to be able to give back.  We have been fortunate to experience growth every year since our formation and partnering with the local community and its members. We look forward to being able to continue to expand our reach and help more in need every year.
               </p>
             </div>
           </div>

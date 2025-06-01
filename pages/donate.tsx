@@ -91,7 +91,7 @@ export default function Donate() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Donate</h1>
             <p className="text-xl md:text-2xl">
-              Your donation helps us make a difference in our community
+              Your donation helps us make a difference in our community. We are a 501(c)3 non-profit organization. EIN: 81-2744656
             </p>
           </div>
         </div>
