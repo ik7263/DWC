@@ -202,6 +202,66 @@ export default function TheDudes() {
         </div>
       </section>
 
+      {/* Junior Dudes Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Junior Dudes</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* JP */}
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
+                <Image 
+                  src="/images/the-dudes/junior-dudes/jp.jpg" 
+                  alt="JP" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-1">JP</h3>
+              <p className="text-primary font-medium mb-3">Junior Dude</p>
+              <p className="text-lg text-gray-600">
+                JP is an enthusiastic young member of our community who brings energy and fresh perspectives to our events.
+              </p>
+            </div>
+            
+            {/* Jason */}
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
+                <Image 
+                  src="/images/the-dudes/junior-dudes/jason.jpg" 
+                  alt="Jason" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-1">Jason</h3>
+              <p className="text-primary font-medium mb-3">Junior Dude</p>
+              <p className="text-lg text-gray-600">
+                Jason actively participates in our community service projects and helps spread our message of caring.
+              </p>
+            </div>
+            
+            {/* Nolan */}
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
+                <Image 
+                  src="/images/the-dudes/junior-dudes/nolan.jpg" 
+                  alt="Nolan" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-1">Nolan</h3>
+              <p className="text-primary font-medium mb-3">Junior Dude</p>
+              <p className="text-lg text-gray-600">
+                Nolan brings creativity and dedication to our team, helping us make a difference in our community.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-secondary text-white">
         <div className="container mx-auto px-4 text-center">

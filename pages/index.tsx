@@ -34,17 +34,14 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <div className="relative w-full max-w-lg h-80 md:h-96">
-                <div className="absolute inset-0 bg-secondary/20 rounded-lg transform rotate-3"></div>
-                <div className="absolute inset-0 bg-white/90 rounded-lg overflow-hidden">
-                  <Image 
-                    src="/DWC/images/DUDES-HEART-LOGO-BLACK.jpg" 
-                    alt="Dudes Who Care Logo" 
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
+              <div className="relative w-full max-w-xs aspect-square bg-white/90 rounded-lg overflow-hidden flex items-center justify-center">
+                <Image 
+                  src="/DWC/images/DUDES-HEART-LOGO-BLACK.jpg" 
+                  alt="Dudes Who Care Logo" 
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
             </div>
           </div>
