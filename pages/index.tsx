@@ -34,7 +34,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <div className="relative w-full max-w-xs aspect-square bg-white/90 rounded-lg overflow-hidden flex items-center justify-center">
+              <div className="relative w-[344px] h-[200px] bg-white/90 rounded-lg overflow-hidden flex items-center justify-center">
                 <Image 
                   src="/DWC/images/DUDES-HEART-LOGO-BLACK.jpg" 
                   alt="Dudes Who Care Logo" 
