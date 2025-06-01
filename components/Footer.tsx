@@ -13,15 +13,6 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <div className="relative w-10 h-10 mr-2">
-                <Image 
-                  src="/DWC/images/DUDES-HEART-LOGO-BLACK.jpg" 
-                  alt="Dudes Who Care Logo" 
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
               <span className="font-heading font-bold text-xl">DUDES WHO CARE</span>
             </Link>
             <p className="text-gray-300 mb-4">
