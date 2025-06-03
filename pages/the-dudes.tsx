@@ -51,23 +51,23 @@ export default function TheDudes() {
       {/* Founders Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Our Founders</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Current Officers</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {/* Brian - President */}
+            {/* Frank - President */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/the-dudes/team-1.jpg" 
-                  alt="Brian - President" 
+                  src="/images/the-dudes/Frank_P_profile.jpg" 
+                  alt="Frank - President" 
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1">Brian</h3>
+              <h3 className="text-xl font-bold mb-1">Frank</h3>
               <p className="text-primary font-medium mb-3">President</p>
               <p className="text-lg text-gray-600">
-                Brian is a proud father and husband who enjoys cycling and exercise. He works as an account executive at a national Insurance brokerage located in King of Prussia.
+                Frank is a proud father of a son and daughter and a loving husband. He works in the field of clinical research at a major pharmaceutical company.
               </p>
             </div>
             
@@ -88,23 +88,49 @@ export default function TheDudes() {
               </p>
             </div>
             
-            {/* Frank - Treasurer */}
+            {/* Brian - Treasurer */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/the-dudes/team-3.jpg" 
-                  alt="Frank - Treasurer" 
+                  src="/images/the-dudes/team-1.jpg" 
+                  alt="Brian - Treasurer" 
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-1">Frank</h3>
+              <h3 className="text-xl font-bold mb-1">Brian</h3>
               <p className="text-primary font-medium mb-3">Treasurer</p>
               <p className="text-lg text-gray-600">
-                Frank is a proud father of a son and daughter and a loving husband. He works in the field of clinical research at a major pharmaceutical company.
+                Brian is a proud father and husband who enjoys cycling and exercise. He works as an account executive at a national Insurance brokerage located in King of Prussia.
               </p>
             </div>
             
+            {/* Paul - Secretary */}
+            <div className="text-center">
+              <div className="relative w-48 h-48 mx-auto rounded-hidden mb-6">
+                <Image 
+                  src="/images/the-dudes/team-8.jpg" 
+                  alt="Paul - Secretary" 
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-1">Paul</h3>
+              <p className="text-primary font-medium mb-3">Secretary</p>
+              <p className="text-lg text-gray-600">
+                Paul is a proud and loving father who enjoys exercise and the outdoors. He works as a Senior Lead Engineer in the electric power industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Directors Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Our Directors</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Alex - Marketing Director */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
@@ -121,16 +147,7 @@ export default function TheDudes() {
                 Alex attends the University of Virginia. He is passionate about volunteering as well as community and self-improvement. He served as Secretary of DWC from 2018-2022.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Directors Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Our Directors</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
             {/* Nate - Solicitations Director */}
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
@@ -179,23 +196,6 @@ export default function TheDudes() {
               <p className="text-primary font-medium mb-3">Director</p>
               <p className="text-lg text-gray-600">
                 Nicolas is a happy husband and proud father of two daughters and a son. He works in clinical research at a major pharmaceutical company. He loves cooking and the outdoors.
-              </p>
-            </div>
-            
-            {/* Paul */}
-            <div className="text-center">
-              <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
-                <Image 
-                  src="/images/the-dudes/team-8.jpg" 
-                  alt="Paul" 
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-1">Paul</h3>
-              <p className="text-primary font-medium mb-3">Director</p>
-              <p className="text-lg text-gray-600">
-                Paul is a proud and loving father who enjoys exercise and the outdoors. He works as a Senior Lead Engineer in the electric power industry.
               </p>
             </div>
           </div>
