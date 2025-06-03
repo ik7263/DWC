@@ -381,15 +381,10 @@ export default function Donate() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Other Ways to Donate</h3>
                   <p className="text-gray-600 mb-4">
-                    If you prefer to donate by check, please make it payable to "Dudes Who Care" and mail it to:
-                  </p>
-                  <p className="text-gray-600 mb-4">
-                    Dudes Who Care<br />
-                    P.O. Box 1234<br />
-                    Anytown, USA 12345
+                    If you prefer to donate by check, please make it payable to "Dudes Who Care".
                   </p>
                   <p className="text-gray-600">
-                    For questions about donations or to discuss other ways to support our mission, please contact us at <a href="mailto:info@dudeswhocare.com" className="text-primary hover:underline">info@dudeswhocare.com</a>.
+                    For questions about donations or to discuss other ways to support our mission, please contact us at <a href="mailto:frank.plonski@dudeswhocare.org" className="text-primary hover:underline">frank.plonski@dudeswhocare.org</a>.
                   </p>
                 </div>
               </div>

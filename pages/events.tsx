@@ -109,10 +109,6 @@ export default function Events() {
                       <FaCalendarAlt className="mr-2 text-primary" />
                       {event.date}
                     </div>
-                    <div className="flex items-center">
-                      <FaMapMarkerAlt className="mr-2 text-primary" />
-                      {event.location}
-                    </div>
                   </div>
                   
                   <p className="text-gray-600 mb-4">

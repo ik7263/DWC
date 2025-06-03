@@ -59,9 +59,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>P.O. Box 1234</li>
-              <li>Anytown, USA 12345</li>
-              <li>Email: info@dudeswhocare.com</li>
+              <li>Email: <a href="mailto:frank.plonski@dudeswhocare.org" className="hover:text-white">frank.plonski@dudeswhocare.org</a></li>
             </ul>
           </div>
           
