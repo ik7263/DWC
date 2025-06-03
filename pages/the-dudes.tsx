@@ -58,7 +58,7 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/the-dudes/Frank_P_profile.jpg"
+                  src="https://github.com/ik7263/DWC/blob/main/public/images/the-dudes/Frank_P_profile.jpg?raw=true"
                   alt="Frank - President" 
                   fill
                   className="object-cover"
