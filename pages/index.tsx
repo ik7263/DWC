@@ -102,7 +102,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
             <div className="p-6">
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2">10+</div>
               <p className="text-gray-600">Years of Service</p>
@@ -110,17 +110,7 @@ export default function Home() {
             
             <div className="p-6">
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2">$100K+</div>
-              <p className="text-gray-600">Funds Raised</p>
-            </div>
-            
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">50+</div>
-              <p className="text-gray-600">Community Events</p>
-            </div>
-            
-            <div className="p-6">
-              <div className="text-4xl md:text-5xl font-bold text-primary mb-2">1000+</div>
-              <p className="text-gray-600">Lives Impacted</p>
+              <p className="text-gray-600">Funds and Donated Goods Raised</p>
             </div>
           </div>
         </div>
