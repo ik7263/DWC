@@ -58,10 +58,11 @@ export default function TheDudes() {
             <div className="text-center">
               <div className="relative w-48 h-48 mx-auto rounded-full overflow-hidden mb-6">
                 <Image 
-                  src="/images/the-dudes/Frank_P_profile.jpg" 
+                  src="/images/the-dudes/Frank_P_profile.jpg"
                   alt="Frank - President" 
                   fill
                   className="object-cover"
+                  priority
                 />
               </div>
               <h3 className="text-xl font-bold mb-1">Frank</h3>
