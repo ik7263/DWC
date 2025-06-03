@@ -32,16 +32,11 @@ export default function Contact() {
               </p>
               
               <div className="space-y-6">
-                <div className="flex items-center justify-center">
-                  <div className="text-primary text-xl mt-1 mr-4">
-                    <FaEnvelope />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-lg">Email</h3>
-                    <a href="mailto:frank.plonski@dudeswhocare.org" className="text-primary hover:underline">
-                      frank.plonski@dudeswhocare.org
-                    </a>
-                  </div>
+                <div className="text-center">
+                  <h3 className="font-bold text-lg mb-2">Email</h3>
+                  <a href="mailto:frank.plonski@dudeswhocare.org" className="text-primary hover:underline text-lg">
+                    frank.plonski@dudeswhocare.org
+                  </a>
                 </div>
               </div>
               
